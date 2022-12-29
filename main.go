@@ -58,11 +58,11 @@ func main() {
 		}
 
 		for k, v := range dupeHashMap {
-			fmt.Printf("found duplicate hash for: '%s' - '%s'", k, v)
+			fmt.Printf("found duplicate hash for: '%s' - '%s'\n", k, v)
 		}
 
 		for k, v := range dupeLenMap {
-			fmt.Printf("found duplicate length for: '%s' - '%s'", k, v)
+			fmt.Printf("found duplicate length for: '%s' - '%s'\n", k, v)
 		}
 	}
 }
